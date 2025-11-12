@@ -78,6 +78,31 @@ div#formulario > h1 {
         display: none;
     }
 
+    div.campo > span {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo > input {
+        background-color: #2f58a3;
+        font-size: 1em;
+        width: calc(100% - 61px);
+        transform: translateY(-11px);
+        height: 100%;
+        border: 0px;
+        border-radius: 10px;
+        padding: 4px;
+
+    }
+
+    div.campo > input:focus-within {
+        background-color: white;
+    }
+
+
+
     form > input[type=submit] {
         display: block;
         font-size: 1em;
@@ -102,9 +127,8 @@ div#formulario > h1 {
         height: 40px;
         padding-top: 6px;
         margin-top: 3px;
-        color: black;
+        color: #2f58a3;
         background-color: #4F7CD1;
-        border: 1px solid black;
         border-radius: 10px;
         text-decoration: none;
     }
